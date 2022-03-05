@@ -1,0 +1,11 @@
+[[redirects]]
+  from = "/harper"
+  to = "https://lucid-hamilton-621142.netlify.app"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/harper/*"
+  to = "https://lucid-hamilton-621142.netlify.app/:splat"
+  status = 200
+  force = true
