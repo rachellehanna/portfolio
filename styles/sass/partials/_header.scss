@@ -1,0 +1,17 @@
+header {
+    background-image: url("../assets/face.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    .wrapper {
+        height: 20rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .greeting p {
+        font-style: italic;
+        margin: 0;
+    }
+}

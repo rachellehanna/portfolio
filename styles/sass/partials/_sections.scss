@@ -1,0 +1,86 @@
+/*About section*/
+#about {
+    background: linear-gradient($secondary, $color17);
+
+    .toolkit {
+        margin-top: 2rem;
+        text-align: center;
+        ul {
+            padding-left: 0;
+            li {
+                display: inline-block;
+            }
+        }
+
+        i {
+            font-size: 2rem;
+            margin: 0 0.75rem 0 0.75rem;
+            transition: transform 0.5s;
+            &:hover {
+                transform: scale(1.2);
+                text-shadow: 2px 2px 5px $primary;
+            }
+        }
+    }
+}
+
+.imageContainer {
+    width: 40%;
+    img {
+        width: 100%;
+    }
+}
+
+/*Projects section*/
+
+.projectRecord {
+    list-style-type: square;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+    li {
+        text-align: start;
+    }
+}
+
+.projectContainer {
+    margin-top: 1rem;
+
+    p {
+        margin-bottom: 0;
+    }
+
+    ul {
+        list-style: none;
+        margin: 0.5rem 0;
+        padding: 0;
+        li {
+            display: inline-block;
+            padding: 0.25rem;
+            border-radius: 0.25rem;
+            font-size: 0.6rem;
+            background: $secondary;
+        }
+    }
+}
+
+h3 {
+    border-top: 2px solid $color12;
+}
+
+/*My contact section*/
+
+#contact {
+    margin-bottom: 0;
+
+    ul {
+        display: inline-block;
+        padding: 0;
+    }
+    li {
+        text-align: right;
+        display: inline-block;
+        list-style: none;
+        margin-left: 0.5rem;
+    }
+}

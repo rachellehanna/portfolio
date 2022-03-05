@@ -1,0 +1,36 @@
+.wrapper {
+    max-width: 1300px;
+    width: 52%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: $secondary;
+}
+
+section,
+header {
+    margin-bottom: 4rem;
+}
+
+main {
+    background-color: $color17;
+}
+
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+a {
+    color: $colorLink;
+}
+
+a:visited {
+    color: $colorLink;
+}
