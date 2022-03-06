@@ -335,6 +335,7 @@ h2 {
   font-size: 2rem;
   font-family: "Londrina Solid", cursive;
   letter-spacing: 0.1rem;
+  margin-bottom: 0.25rem;
 }
 
 .projectDescription h2 {
@@ -431,9 +432,8 @@ a:hover {
 /*Projects section*/
 .projectRecord {
   list-style-type: square;
-  list-style-position: inside;
   margin: 0;
-  padding: 0;
+  padding: 0 0 0 1rem;
 }
 .projectRecord li {
   text-align: start;
