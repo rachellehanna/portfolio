@@ -9,3 +9,15 @@
   to = "https://lucid-hamilton-621142.netlify.app/:splat"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/what-cocktail"
+  to = "https://nifty-wilson-ca5f79.netlify.app"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/what-cocktail/*"
+  to = "https://nifty-wilson-ca5f79.netlify.app/:splat"
+  status = 200
+  force = true

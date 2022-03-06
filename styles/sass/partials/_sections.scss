@@ -44,7 +44,7 @@
 }
 
 .projectContainer {
-    margin-top: 1rem;
+    margin-top: 2rem;
 
     p {
         margin-bottom: 0;
@@ -71,6 +71,7 @@ h3 {
 /*My contact section*/
 
 #contact {
+    background: linear-gradient($color17, $secondary);
     margin-bottom: 0;
 
     ul {
