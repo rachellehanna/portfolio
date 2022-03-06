@@ -471,6 +471,7 @@ h3 {
 #contact ul {
   display: inline-block;
   padding: 0;
+  margin-top: 0;
 }
 #contact li {
   text-align: right;
