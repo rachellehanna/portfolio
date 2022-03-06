@@ -21,3 +21,9 @@
   to = "https://nifty-wilson-ca5f79.netlify.app/:splat"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/potato-quiz/*"
+  to = "https://stupefied-pike-070458.netlify.app/:splat"
+  status = 200
+  force = true
