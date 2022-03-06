@@ -15,3 +15,15 @@
   to = "https://stupefied-pike-070458.netlify.app/:splat"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/fitworks/*"
+  to = "https://gracious-euclid-4f703f.netlify.app/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/the-journal/*"
+  to = "https://focused-wilson-bca51b.netlify.app/:splat"
+  status = 200
+  force = true
