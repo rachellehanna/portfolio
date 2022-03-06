@@ -1,0 +1,29 @@
+@media (max-width: 800px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    nav {
+        text-align: center;
+
+        li {
+            margin: 0 0.5rem;
+        }
+    }
+
+    #about {
+        .toolkit {
+            i {
+                margin-bottom: 0.75rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    nav {
+        a {
+            font-size: 0.7rem;
+        }
+    }
+}
