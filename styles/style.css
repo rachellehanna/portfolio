@@ -419,7 +419,7 @@ a:hover {
 #about .toolkit i:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
-  text-shadow: 2px 2px 5px #ffff;
+  text-shadow: 2px 2px 5px white;
 }
 
 .imageContainer {
@@ -443,7 +443,7 @@ a:hover {
   margin-top: 2rem;
 }
 .projectContainer p {
-  margin-bottom: 0;
+  margin-bottom: 0.5rem;
 }
 .projectContainer ul {
   list-style: none;
@@ -460,6 +460,7 @@ a:hover {
 
 h3 {
   border-top: 2px solid #ec5926;
+  padding-top: 1rem;
 }
 
 /*My contact section*/
