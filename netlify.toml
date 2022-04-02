@@ -29,12 +29,6 @@
   force = true
 
 [[redirects]]
-  from = "/pokemon-blackjack/*"
-  to = "https://jade-lamington-9f905f.netlify.app/:splat"
-  status = 200
-  force = true
-
-[[redirects]]
   from = "/dust-bunny/*"
   to = "https://fervent-heyrovsky-990178.netlify.app/:splat"
   status = 200
